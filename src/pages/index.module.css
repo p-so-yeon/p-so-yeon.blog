@@ -1,0 +1,423 @@
+@font-face {
+  font-family: "IAMAPLAYER";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GangwonEduPowerExtraBoldA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LeferiPoint-BlackObliqueA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackObliqueA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KBO-Dia-Gothic_bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard-Regular1";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+:root {
+  --white-color: #fff;
+  --yellow-color: rgb(252, 243, 189);
+  --black-color: rgb(0, 0, 0);
+  --pink-color: rgb(233, 148, 148);
+  --purple-color: rgb(163, 140, 184);
+  --gray-color: rgb(190, 186, 193);
+  --navy-color: rgb(22, 41, 54);
+  --font-large: 100px;
+  --font-midiume: 50px;
+  --font-small: 25px;
+  --font-family: sans-serif;
+  --align-center: center;
+}
+
+.box {
+  padding: 0px;
+  margin: 0px;
+  color: var(--black-color);
+  height: 1000px;
+
+  background: #a3c270;
+}
+
+body {
+  margin: 0px;
+}
+.navmenu {
+  display: flex;
+  margin-left: 2100px;
+  margin-top: 10px;
+}
+.menu {
+  margin-left: 20px;
+  font-size: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "IAMAPLAYER";
+}
+.menu:hover {
+  color: gray;
+}
+.menu2:hover {
+  color: gray;
+}
+.menu2 {
+  margin-left: 50px;
+  font-size: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "IAMAPLAYER";
+}
+.name {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+  color: var(--white-color);
+  font-family: "IAMAPLAYER";
+}
+.so {
+  margin-top: 10%;
+  font-size: 120px;
+  color: white;
+  font-family: "LeferiPoint-BlackObliqueA";
+}
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.nav {
+  display: flex;
+}
+.about {
+  text-align: left;
+  margin-top: 50px;
+  background-color: black;
+  width: 70%;
+  font-family: "Pretendard-Regular";
+  border-radius: 85px;
+}
+.title {
+  font-size: 50px;
+  margin-top: 50px;
+  font-weight: bolder;
+}
+.title2 {
+  font-size: 50px;
+  margin-top: 50px;
+  font-weight: bold;
+  color: white;
+}
+.inform2 {
+  margin-left: 40px;
+  font-size: 25px;
+
+  margin-top: 10px;
+  color: #fff;
+}
+.st {
+  font-size: 40px;
+  font-family: "LeferiPoint-BlackObliqueA";
+}
+.lay {
+  margin-top: 70px;
+  margin-left: 700px;
+}
+.line {
+  background-color: rgba(39, 39, 39, 0.116);
+  height: 3px;
+  width: 65%;
+  margin-left: 455px;
+}
+
+li {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.explain {
+  margin-top: 30px;
+
+  font-size: larger;
+}
+.exp {
+  text-align: center;
+}
+
+.func {
+  font-size: larger;
+  font-weight: 900;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+.intro {
+  text-align: center;
+  font-size: 50px;
+  line-height: 80px;
+  color: white;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.center1 {
+  display: flex;
+  justify-content: center;
+}
+.design {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+  height: 80%;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  margin-left: 50px;
+}
+
+.personalInfo {
+  align-items: center;
+  margin-left: 15px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 180px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  margin-left: 20px; /* 오른쪽과 왼쪽 컨테이너 사이의 여백 설정 */
+}
+
+.skillSection {
+  margin-top: 20px; /* 스킬 섹션 위 여백 설정 */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 80px;
+}
+
+.myskill {
+  margin-top: 10px;
+  background: white;
+  color: black;
+  width: 40%;
+  border-radius: 60px;
+
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.inform {
+  font-size: 40px;
+  flex: 1;
+}
+.personal {
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 60px;
+  margin-top: 15px;
+}
+.skill {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.divi {
+  display: flex;
+}
+.center3 {
+  display: flex;
+  justify-content: center;
+}
+.second {
+  background: #3e3f3c;
+  display: flex;
+  flex-direction: column;
+}
+.prname {
+  position: relative;
+  width: 700px;
+  background: #d9d9d9;
+  border-radius: 70px;
+
+  flex-direction: column;
+}
+.explain {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  justify-content: center;
+}
+.ex {
+  margin-left: 90px;
+  flex-direction: column;
+
+  font-family: "Pretendard-Regular";
+}
+.pofol {
+  margin-top: 25px;
+  font-size: larger;
+  display: flex;
+  font-weight: bolder;
+  justify-content: center;
+  font-family: "Pretendard-Regular";
+}
+a {
+  color: white;
+}
+.dowa {
+  text-align: center;
+  font-size: 30px;
+
+  font-weight: bolder;
+  background: #bf9df8;
+  border-radius: 70px;
+  height: 80px;
+  width: 30%;
+
+  margin-top: 10px;
+  transform: rotate();
+}
+
+.text {
+  font-size: 30px;
+  line-height: 45px;
+  font-family: "Pretendard-Regular";
+}
+.exp {
+  position: relative;
+  top: -30px;
+  right: 20px;
+}
+.titledo {
+  display: flex;
+  font-family: "Pretendard-Regular";
+  align-items: center;
+  font-size: smaller;
+  font-weight: 1000;
+  color: white;
+}
+.titledo1 {
+  display: flex;
+  font-family: "Pretendard-Regular";
+  font-weight: 1000;
+  align-items: center;
+  font-size: smaller;
+  color: white;
+}
+.prname2 {
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  flex-wrap: wrap;
+  justify-content: top;
+}
+.prname3 {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  position: relative;
+  justify-content: top;
+}
+.minicon {
+  background: #fff;
+  border-radius: 70px;
+  width: 80px;
+  text-align: center;
+  font-family: "Pretendard-Regular";
+}
+.purplecont {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -25px;
+  left: -20px;
+
+  height: 60px;
+  font-size: 30px;
+  background-color: #009122;
+  position: absolute;
+  width: 200px;
+  display: flex;
+  border-radius: 60px;
+  text-align: center;
+}
+.purple {
+  color: #6717f1;
+  font-weight: 800;
+}
+.tit {
+  font-size: 40px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "KBO-Dia-Gothic_bold";
+}
+
+.purplecont1 {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -25px;
+  left: 630px;
+  height: 60px;
+  font-size: 30px;
+  background-color: #6600ff;
+  position: absolute;
+  width: 220px;
+  display: flex;
+  border-radius: 60px;
+  text-align: center;
+}
+
+.stack {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-weight: bold;
+}
+.short {
+  font-weight: bold;
+  font-family: "Pretendard-Regular";
+}
+.ex1 {
+  margin-left: 110px;
+  font-family: "Pretendard-Regular";
+}
